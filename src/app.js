@@ -5,7 +5,7 @@ const { geocode } = require("./utils/geocode");
 const { forcast } = require("./utils/forcast");
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 'https://scary-red-outfit.cyclic.app' || 3000;
 
 //Define paths for Express config
 const public = path.join(__dirname, "../public");
