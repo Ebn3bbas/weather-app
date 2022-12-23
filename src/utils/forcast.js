@@ -19,9 +19,9 @@ const forcast = (latitude, longitude, callback) => {
         undefined,
         weather_descriptions[0] +
           " It is currently " +
-          temperature +
+          -temperature +
           " degress out. But it feels like " +
-          feelslike +
+          -feelslike +
           " degress out"
       );
     }
